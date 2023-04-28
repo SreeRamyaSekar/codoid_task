@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account Type Selection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color:magenta;
+    }
+    .card {
+      margin-top: 50px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      border-bottom: none;
+    }
+    .card-body {
+      text-align: center;
+      padding: 20px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      font-weight: bold;
+      border-radius: 25px;
+      padding: 10px 40px;
+      margin-top: 20px;
+    }
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      Select Account Type
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">What type of account do you want to open?</h5>
+      <p class="card-text">Choose the account that best fits your needs.</p>
+      <a href="#" class="btn btn-primary" onclick="window.location.href='checking.html'">Checking Account</a>
+      <a href="#" class="btn btn-primary" onclick="window.location.href='savings.html'">Savings Account</a>
+      <a href="#" class="btn btn-primary" onclick="window.location.href='debit.html'">Debit Card</a>
+      <a href="#" class="btn btn-primary" onclick="window.location.href='credit.html'">Credit Card</a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

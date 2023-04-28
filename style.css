@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  /* Navigation menu style */
+  nav {
+   
+    
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+   
+    color: rgb(158, 158, 199);
+  }
+  
+  /* Main section style */
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  main section {
+    
+    box-shadow: 2px 2px 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 300px;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+  }
+  
+  main section h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  main section p {
+    margin: 0;
+  }
+  
+  /* Footer style */
+  footer {
+    background-color: rgb(194, 194, 234);
+   
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Animations */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .welcome-banner{
+  
+    background-color: rgb(231, 205, 234);
+  }
+  .container{
+    background-image: -webkit-linear-gradient();
+  }
+  body {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg");
+    background-size: cover;
+    background-position: center;
+}
+  .container {
+    background-image: url('https://img.freepik.com/free-vector/nice-white-with-bokeh-light-effect_1017-25616.jpg?w=2000');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

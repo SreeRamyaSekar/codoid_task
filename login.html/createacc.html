@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account Creation</title>
+    <script>
+      function displayMessage() {
+        document.getElementById("success-message").innerHTML = "Account has been successfully created!";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Create an Account</h1>
+    <form>
+      <!-- Account creation form fields go here -->
+      <button type="submit" onclick="displayMessage()">Create Account</button>
+    </form>
+    <div id="success-message"></div>
+  </body>
+</html>

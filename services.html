@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Banking System - Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("data:image/jpeg;base64,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");
+            background-size: cover;
+            background-position: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        select {
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+
+        .service {
+            display: none;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            label {
+                margin-right: 20px;
+            }
+
+            select {
+                width: 200px;
+            }
+
+            .service {
+                margin-top: 50px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <h1>Welcome to YourBank Services</h1>
+    <form>
+        <label for="services">Select Service:</label>
+        <select id="services" name="services">
+            <option value="checking">Checking Account</option>
+            <option value="savings">Savings Account</option>
+            <option value="creditcard">Credit Card</option>
+            <option value="loan">Loan</option>
+            <option value="investment">Investment</option>
+        </select>
+    </form>
+
+    <div id="checking" class="service">
+        <h2>Checking Account</h2>
+        <p>Our checking account offers:</p>
+        <ul>
+            <li>No monthly maintenance fees</li>
+            <li>Free online banking and mobile app</li>
+            <li>Overdraft protection available</li>
+            <li>Debit card with rewards program</li>
+            <li>24/7 customer support</li>
+        </ul>
+    </div>
+
+    <div id="savings" class="service">
+        <h2>Savings Account</h2>
+        <p>Our savings account offers:</p>
+        <ul>
+            <li>Competitive interest rates</li>
+            <li>No monthly maintenance fees</li>
+            <li>Free online banking and mobile app</li>
+            <li>Automatic transfers from checking account available</li>
+            <li>24/7 customer support</li>
+        </ul>
+    </div>
+
+    <div id="creditcard" class="service">
+        <h2>Credit Card</h2>
+        <p>Our credit card offers:</p>
+        <ul>
+            <li>No annual fee</li>
+            <li>Low interest rates</li>
+            <li>Rewards program for every purchase</li>
+            <li>24/7 fraud monitoring</li>
+            <li>Easy online account management</li>
+        </ul>
+    </div>
+
+    <div id="loan" class="service">
+        <h2>Loan</h2>
+        <p>Our loan options include:</p>
+        <ul>
+            <li>Personal loans</li>
+            <li>Auto loans</li>
+            <li>Home equity loans</li>
+            <li>Mortgage loans</li>
+            <li>Business loans</li>
+        </ul>
+    </div>
+
+    <div id="investment" class="service">
+        <h2>Investment</h2>
+        <p>Our investment services include:</p>
+        <ul>
+            <li>Stocks and bonds trading</li>
+            <li>Retirement planning</li>
+            <li>Financial advising</li>
+            <li>Portfolio management</li>
+            <li>Tax-efficient investing</li>
+        </ul>
+    </div>
+
+    <script>
+        const services = document.getElementById('services');
+        const serviceDivs = document.querySelectorAll('.service');
+
+        services.addEventListener('change', function () {
+            serviceDivs.forEach(div => div.style.display = 'none');
+            document.getElementById(services.value).style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
